@@ -3,7 +3,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-bot.login('MzA5NTA0NzA2OTkxMDk1ODIw.C-wYTg.H3Fgc76b7_txjrO1qy_4AQojNps');
+// TODO Add back bot.login() and add token to .env
 
 bot.on('message', (message) => {
   if (message.content === '!lfg') {
